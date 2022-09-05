@@ -16,7 +16,13 @@
 }
 
 html {
+  max-width: 415px;
   font-size: 16px;
+  box-shadow: 0 0 20px rgb(0 0 0 / 30%);
+  text-align: center;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
 }
 
 body {
@@ -28,8 +34,117 @@ body {
   line-height: 1.5rem;
 }
 
+/* OTHER */
+
+.buttonOrder {
+  font-weight: 700;
+  padding: 7px;
+  background: #DF0000;
+  border-radius: 8px;
+  font-family: Roboto-Bold;
+  font-size: 18px;
+  color: #FFFFFF;
+  box-shadow:  0px 2px 4px rgba(0, 0, 0, 50%);
+}
+
 a {
   color: inherit;
+}
+
+img {
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+/* HEADER */
+
+.headerLogo {
+  background-color: #E7E7DB;
+  padding: 12px;
+}
+
+.headerBorder {
+  border-top: 3px #DF0000;
+  border-bottom: 3px #DF0000;
+}
+
+.TitlePage {
+  border-bottom: 2px #DF0000;
+  padding: 25px;
+  line-height: 42px;
+}
+
+.TitlePage h2 {
+  font-size: 36px;
+  font-weight: 700px;
+}
+
+em {
+  font-style: normal;
+  color: #DF0000;
+}
+
+/* MAIN */
+
+.SubstitleMain {
+  padding: 22px 37px 0;
+  text-align: center;
+  font-size: 21px;
+}
+
+main section {
+  padding: 37px;
+  text-align: center;
+}
+
+main h2 {
+  padding-bottom: 12px;
+  font-size: 21px;
+}
+
+.containerProd {
+  background-color: #DF0000;
+  padding: 20px;
+}
+
+.containerProd img {
+  box-shadow:  10px 10px 20px rgba(0, 0, 0, 50%);
+}
+
+main {
+  padding-bottom: 50px;
+}
+/* FOOTER */
+
+ul {
+  color: #DF0000;
+  line-height: 19px;
+  padding-bottom: 50px;
+}
+
+footer h2 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+
+footer a {
+  font-size: 12px;
+  padding: -20px;
+}
+
+.footerSource {
+  display: block;
+}
+
+footer {
+  background-image: url(../img/background.png);
+  max-width: 414px;
+  max-height: 308px;
+  color: white;
+  padding: 22px 37px 37px ;
 }
 
 img,
